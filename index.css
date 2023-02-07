@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+}
+
+.main_frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100vmin;
+    height: 175vmin;
+
+    background-color: white;
+    box-shadow: 0 0 1vmin 0.5vmin rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    margin-top: 40vmin;
+}
+
+.image_pos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vmin;
+    height: 20%;
+
+    padding: 1vmin;
+    background-color: rgb(60, 0, 0);
+}
+
+.image_pos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name_pos {
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    height: 15%;
+
+    width: 55vmin;
+    padding: 4vmin;
+
+    background-color: rgb(60, 0, 0);
+    font-size: large;
+    color: white;
+}
+
+.name_pos hr {
+    width: 100%;
+    height: 1%;
+    background-color: white;
+    border: none;
+    margin-top: 1vmin;
+}
+
+.name_pos h2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.name_pos p {
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.info_pos {
+    position: absolute;
+    top: 22%;
+    left: 0;
+
+    width: 30vmin;
+    padding: 1vmin;
+    height: 77%;
+
+    color: white;
+    background-color: rgb(60, 0, 0);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 1vmin;
+}
+
+.info_pos h2 {
+    text-align: center;
+    margin-bottom: 1vmin;
+}
+
+.info_pos hr {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.info_pos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info_pos ul li {
+    margin-bottom: 2vmin;
+    font-size: medium;
+    background-color: white;
+    color: black;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    font-weight: bolder;
+}
+
+.info_pos a {
+    color: black;
+    text-decoration: none;
+}
+
+.info_pos .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1vmin;
+    margin-top: 1vmin;
+    background-color: black;
+    color: white;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.second_frame {
+    position: absolute;
+    top: 0;
+    left: 35%;
+
+    width: 60vmin;
+    height: 70%;
+    padding: 1vmin;
+
+    border: 1px solid black;
+    border-radius: 1vmin;
+    color: black;
+    margin-top: 40vmin;
+}
+
+.second_frame ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1vmin;
+}
